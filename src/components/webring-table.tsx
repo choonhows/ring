@@ -71,7 +71,8 @@ export default function WebringTable() {
                 <td className="px-3 py-2 whitespace-nowrap">{entry.year}</td>
                 <td className="px-3 py-2 whitespace-nowrap">
                   <a
-                    rel="external"
+                    target="_blank"
+                    rel="noopener noreferrer external"
                     href={`${entry.url}?utm_source=${SITE_CONFIG.baseUrl.replace("https://", "").replace("http://", "")}&utm_medium=referral`}
                     className="w-full group link inline-flex items-center gap-1"
                   >
